@@ -1,0 +1,6 @@
+body {
+    background-color: #5352ed !important;
+}
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh) !important;
+}
