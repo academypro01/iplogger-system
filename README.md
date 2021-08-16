@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img width="150px" src="https://free3dicon.com/wp-content/uploads/2021/02/location_perspective_matte_s-1-300x300.png.webp"></a></p>
+<p align="center"><a href="#" target="_blank"><img width="150px" src="https://free3dicon.com/wp-content/uploads/2021/02/location_perspective_matte_s-1-300x300.png.webp"></a></p>
 
 # IPLogger System
 
