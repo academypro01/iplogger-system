@@ -7,12 +7,6 @@ class Index extends Controller {
     }
 
     public function index() {
-        // $users = $this->userModel->showInformation('abc');
-        // $data = [
-        //     'title' => 'Home Page',
-        //     'name'  => 'Majid',
-        //     'data'  => $users,
-        // ];
         $this->view('pages/index');
     }
 }

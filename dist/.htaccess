@@ -1,5 +1,9 @@
 Options -Indexes
 
+ErrorDocument 403 /404.php
+ErrorDocument 404 /404.php
+Header append X-Frame-Options: "SAMEORIGIN"
+
 RewriteEngine ON
 
 RewriteCond %{REQUEST_FILENAME} !-d

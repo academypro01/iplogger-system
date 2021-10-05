@@ -9,8 +9,10 @@ class Create extends Controller {
         $this->view('pages/create');
     }
     public function create() {
-        $data = $_POST['redirect_link'];
-        $data = filter_var($data, FILTER_SANITIZE_URL);
-        $this->userModel->addNewUser($data);
+        if (isset($_POST['redirect_link'])) {
+            $data = $_POST['redirect_link'];
+            $data = filter_var($data, FILTER_SANITIZE_URL);
+            $this->userModel->addNewUser($data);
+        }
     }
 }
